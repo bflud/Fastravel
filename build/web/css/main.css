@@ -1,0 +1,122 @@
+/*
+ * @freebie: login-freebie
+ * @author: Francisco Neves
+ */
+
+div.login-freebie
+{
+	font-size: 33px;
+	display: table;
+	background-color: #FFF;
+	border: 1px solid #d9d9d9;
+
+	-moz-box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.5);
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+div.login-freebie > div.form
+{
+	display: table;
+	width: 240%;
+	
+	
+	padding: 40px;
+}
+
+div.login-freebie > div.form > input[type=text],
+div.login-freebie > div.form > input[type=password]
+{
+	outline: none;
+	display: table;
+	width: 34%;
+	height:10%;
+	padding: 10px 10px;
+	border: 1px solid #bcbcbc;
+	color: #000000;
+	
+	text-shadow: 0px 1px 0px #fff;
+	margin-bottom: 15px;
+	font-size:15px;
+
+
+
+div.login-freebie > div.form > input:last-child { margin-bottom: 0px; }
+
+div.login-freebie > div.form > input[type=text]:hover,
+div.login-freebie > div.form > input[type=password]:hover,
+div.login-freebie > div.form > input[type=text]:focus,
+div.login-freebie > div.form > input[type=password]:focus
+{
+	-moz-box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.2) inset, 0 0 5px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.2) inset, 0 0 5px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.2) inset, 0 0 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+div.login-freebie > div.footer
+{
+	font-size: 28px;
+	display: table;
+	width: 100%;
+	padding: 15px 20px;
+	background-color: #3a3a3a;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	
+	text-shadow: 0px 1px 0px #000;
+	position: relative;
+}
+.classname {
+	-moz-box-shadow:inset 0px 0px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #f5978e;
+	box-shadow:inset 0px 0px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	-webkit-border-top-left-radius:37px;
+	-moz-border-radius-topleft:37px;
+	border-top-left-radius:37px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:37px;
+	-moz-border-radius-bottomright:37px;
+	border-bottom-right-radius:37px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 0px 0px #810e05;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+	background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+	background-color:#c62d1f;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+}
+/* This button was generated using CSSButtonGenerator.com */
